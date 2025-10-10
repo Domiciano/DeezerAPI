@@ -9,7 +9,9 @@ Cree un formulario HTML que le permita obtener los datos necesarios para crear l
 `[25%]` 
 
 Lista de tareas
-Cree un `div` vacío que luego llene con la tareas. Para obtener la lista de tareas debe hacer la solicitud al endpoint correcto
+Cree tres `div` vacíos que luego llene con la tareas por status. Sólo hay 3 posibles status: `todo`, `doing` y `done`.
+
+Si lista todas las tareas en un sólo `div` tiene la mitad del punto
 
 `[25%]` 
 
