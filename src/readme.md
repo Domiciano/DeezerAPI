@@ -4,7 +4,9 @@ Debe implementar el frontend de una API de tareas. Para esta oportunidad no tien
 `[25%]` Creación de tareas
 Cree un formulario HTML que le permita obtener los datos necesarios para crear la tarea. Una vez tenga estos datos, cree un objeto a partir de ellos y cree la tarea haciendo la solicitud correcta al endpoint correcto.
 
-`[25%]` Lista de tareas
+`[25%]` 
+
+Lista de tareas
 Cree un `div` vacío que luego llene con la tareas. Para obtener la lista de tareas debe hacer la solicitud al endpoint correcto
 
 `[25%]` Cambiar status de la tarea
