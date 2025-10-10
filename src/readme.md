@@ -1,7 +1,9 @@
 # Taller 4 · 19% de Implementación
 Debe implementar el frontend de una API de tareas. Para esta oportunidad no tiene que gestionar las redirecciones de la página, debe hacer exclusivamente lo que se pide usando llenado de div por medio de `innerHTML` y solicitudes HTTP por medio de `fetch`.
 
-`[25%]` Creación de tareas
+`[25%]` 
+
+Creación de tareas
 Cree un formulario HTML que le permita obtener los datos necesarios para crear la tarea. Una vez tenga estos datos, cree un objeto a partir de ellos y cree la tarea haciendo la solicitud correcta al endpoint correcto.
 
 `[25%]` 
@@ -9,10 +11,14 @@ Cree un formulario HTML que le permita obtener los datos necesarios para crear l
 Lista de tareas
 Cree un `div` vacío que luego llene con la tareas. Para obtener la lista de tareas debe hacer la solicitud al endpoint correcto
 
-`[25%]` Cambiar status de la tarea
+`[25%]` 
+
+Cambiar status de la tarea
 Cree un `form` que le permita obtener los datos necesarios para luego utilizarlos en la solicitud al endpoint que permite cambiar de estado una tarea.
 
-`[25%]` Eliminación de tarea
+`[25%]` 
+
+Eliminación de tarea
 Cree un `form` que le permita obtener los datos necesarios para luego utilizarlos en la solicitud al endpoint que permite eliminar una tarea
 
 # Código del backend
