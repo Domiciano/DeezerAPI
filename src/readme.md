@@ -4,11 +4,13 @@ Debe implementar el frontend de una API de tareas. Para esta oportunidad no tien
 `[25%]` 
 
 Creación de tareas
+
 Cree un formulario HTML que le permita obtener los datos necesarios para crear la tarea. Una vez tenga estos datos, cree un objeto a partir de ellos y cree la tarea haciendo la solicitud correcta al endpoint correcto.
 
 `[25%]` 
 
 Lista de tareas
+
 Cree tres `div` vacíos que luego llene con la tareas por status. Sólo hay 3 posibles status: `todo`, `doing` y `done`.
 
 Si lista todas las tareas en un sólo `div` tiene la mitad del punto
@@ -16,11 +18,13 @@ Si lista todas las tareas en un sólo `div` tiene la mitad del punto
 `[25%]` 
 
 Cambiar status de la tarea
+
 Cree un `form` que le permita obtener los datos necesarios para luego utilizarlos en la solicitud al endpoint que permite cambiar de estado una tarea.
 
 `[25%]` 
 
 Eliminación de tarea
+
 Cree un `form` que le permita obtener los datos necesarios para luego utilizarlos en la solicitud al endpoint que permite eliminar una tarea
 
 # Código del backend
