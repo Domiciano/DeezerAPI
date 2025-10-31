@@ -40,7 +40,7 @@ Adicional a los botones de ON y OFF, su página debe tener textos que permitan o
 [30%]
 Almacenamiento de datos (POST)
 
-Implemente una solicitud POST que permita almacenar los datos de voltaje y corriente en el almacén.
+Implemente un algoritmo que permita que en el momento de recibir una medida del broker MQTT, se envíe automáticamente una solicitud HTTP POST que permita almacenar los datos de voltaje y corriente en el almacén.
 
 El JSON que recibe desde el broker es el siguiente
 ```json
@@ -51,12 +51,22 @@ El JSON que recibe desde el broker es el siguiente
   "timestamp": "2025-10-30T16:12:00Z"
 }
 ```
+El endpoint es
+```
+POST http://192.168.131.45:8080/examen
+```
+Header necesario
+```
+Content-Type: application/json
+```
 
 
 # Parámetros de conexión
 
-La conexión es al broker público:
+La conexión es al broker público
 
+```
 host: broker.emqx.io
 port: 8083
 user: icesidomicianorincon123123
+```
