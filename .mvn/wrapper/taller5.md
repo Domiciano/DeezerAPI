@@ -1,4 +1,4 @@
-Taller 5 · 19% de Implementación
+# Taller 5 · 19% de Implementación
 
 Debe implementar una simulación de sistema de medición IoT para los seis estudiantes: robledo, mayor, mosquera, barbosa, garcia y rengifo.
 
