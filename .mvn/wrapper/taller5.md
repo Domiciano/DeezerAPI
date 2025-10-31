@@ -25,8 +25,7 @@ al topic `icesi/sensors/control` usando MQTT.
 
 [15%]
 Envío de comando de apagado (OFF)
-
-Cada tarjeta debe tener también un botón “OFF”, el cual publicará el mensaje:
+Use un botón para enviar el comando de OFF:
 ```json
 { "action": "OFF", "deviceId": "robledo" }
 ```
@@ -35,16 +34,15 @@ El cambio de estado debe reflejarse visualmente en el tablero
 
 [40%]
 Visualización de datos en tiempo real
+Adicional a los botones de ON y OFF, su página debe tener textos que permitan observar el valor actual del medidor **en tiempo real**.
 
-El tablero debe mostrar en cada tarjeta los valores más recientes de voltaje y corriente del estudiante, actualizados en tiempo real.
-Los datos son publicados cada segundo por el script principal hacia el tópico del estudiante (icesi/sensors/{deviceId}).
 
 [30%]
 Almacenamiento de datos (POST)
 
-Implemente una solicitud POST que permita almacenar los datos de voltaje y corriente generados, incluyendo el nombre del estudiante.
+Implemente una solicitud POST que permita almacenar los datos de voltaje y corriente en el almacén.
 
-Cada vez que el tablero reciba un nuevo dato, debe enviarlo al endpoint correspondiente mediante fetch, en formato JSON:
+El JSON que recibe desde el broker es el siguiente
 ```json
 {
   "deviceId": "robledo",
@@ -53,6 +51,9 @@ Cada vez que el tablero reciba un nuevo dato, debe enviarlo al endpoint correspo
   "timestamp": "2025-10-30T16:12:00Z"
 }
 ```
+
+
+# Parámetros de conexión
 
 La conexión es al broker público:
 
