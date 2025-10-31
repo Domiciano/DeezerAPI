@@ -1,4 +1,4 @@
-# Taller 5 · 19% de Implementación
+# Taller 5 · 20% de Implementación
 
 Debe implementar una tablero de medición IoT. 
 Cada estudiante: `robledo`, `mayor`, `mosquera`, `barbosa`, `garcia` y `rengifo` tiene una planta a la que se le está midiendo el Voltaje y la Corriente.
