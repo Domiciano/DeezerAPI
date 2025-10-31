@@ -1,22 +1,27 @@
 # Taller 5 · 19% de Implementación
 
-Debe implementar una simulación de sistema de medición IoT para los seis estudiantes: robledo, mayor, mosquera, barbosa, garcia y rengifo.
+Debe implementar una tablero de medición IoT. 
+Cada estudiante: `robledo`, `mayor`, `mosquera`, `barbosa`, `garcia` y `rengifo` tiene una planta a la que se le está midiendo el Voltaje y la Corriente.
 
-Este taller combina comunicación en tiempo real por MQTT con interacción en el navegador.
-El script principal (sampleControl.js) se ejecutará en el navegador y debe ser capaz de enviar y detener flujos de datos de voltaje y corriente hacia cada estudiante.
+Usted verá en pantalla el estado de su sensor, el objetivo es que usted:
+
+1. Encienda el sistema de medición
+
+2. Una vez encendido, el sistema de medición comienza a enviar datos a un topic específico.
+
+3. Debe almacenar las muestras recibidas en el almacen de datos
+
+4. Debe poder apagar el sistema de medición.
 
 [15%]
 Envío de comando de activación (ON)
 
-Cree una interfaz HTML tipo tablero donde aparezcan los seis estudiantes.
-Cada tarjeta debe tener un botón “ON” que publique el mensaje:
+Cree una interfaz HTML tipo tablero donde por medio de un botón `ON` encienda el sistema de medición
+Para hacerlo debe enviar el siguiente mensaje
 ```json
 { "action": "ON", "deviceId": "robledo" }
 ```
-Este mensaje debe publicarse en el tópico icesi/sensors/control usando MQTT.
-El script principal recibirá este comando y comenzará a generar los datos de voltaje y corriente en tiempo real para el estudiante indicado.
-
-Nota: cada estudiante tiene su propio identificador (deviceId) y debe recibir sus datos por un tópico con su nombre, por ejemplo icesi/sensors/robledo.
+al topic `icesi/sensors/control` usando MQTT.
 
 [15%]
 Envío de comando de apagado (OFF)
