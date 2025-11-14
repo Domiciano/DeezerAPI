@@ -19,7 +19,7 @@ Su tarea es
 ---
 
 # Nivel 1 (33.3%)
-Use el enpoint
+Grafique X vs Y. Para eso use el enpoint
 ```
 GET https://example.com/api/talller6/basic
 ```
@@ -31,13 +31,11 @@ Ejemplo de respuesta
   {"x": 3, "y": 9}
 ]
 ```
-- Hacer el GET.
-- Graficar los datos directamente usando Chart.js sin transformarlos.
 
 ---
 
 # Nivel 2 (33.3%)
-Use el endpoint
+Grafique time VS amplitude. Para eso use el endpoint
 ```
 GET https://example.com/api/taller6/intermediate
 ```
@@ -55,7 +53,7 @@ Ejemplo de respuesta
 ```
 
 # Nivel 3 (33.3%)
-Use el endpoint
+Grafique timestamps VS readings. Para eso use el endpoint
 ```
 GET https://example.com/api/taller6/advanced
 ```
