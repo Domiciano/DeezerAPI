@@ -16,6 +16,7 @@ Su tarea es
 ```
 4. **Graficar un scatter chart en Chart.js** usando los datos transformados.
 
+---
 
 # Nivel 1 (33.3%)
 Use el enpoint
